@@ -3,7 +3,6 @@ title: "Challenges in Estimating the Case Fatality Rate: Lessons from Demography
 subtitle: "August  22, 2022 International Workshop and Fourth Meeting of the Advisory Board for the research project Excess Deaths and Life-Years Lost Due to the Covid-19 Pandemic in Denmark"
 author: "Vanessa di Lego<sup>1</sup> <br> Miguel Sánchez-Romero <sup>1</sup> <sup>2</sup><br> Alexia Prskawetz<sup>1</sup> <sup>2</sup> <sup>3</sup>"
 institute: "1 Wittgenstein Centre (IIASA, OeAW, University of Vienna) <br> Vienna Institute of Demography at the Austrian Academy of Sciences <br> 2 International Institute for Applied Systems Analysis, Laxenburg, Austria <br> 3 Institute of Statistics and Mathematical Methods in Economics, Research Unit Economics, TU Wien"
-#date: "April 9, 2022"
 output:
   xaringan::moon_reader:
     self_contained: true
@@ -44,7 +43,7 @@ class: center, middle
 # include_graphics("vaccine.png")
 ```
 
-# What is driving this pattern in the CFR?
+# What drives the patterns in the CFR?
  ## Are vaccines not being effective in reducing deaths?
 
 
@@ -79,9 +78,32 @@ class:remark-slide-content
 --
 
 
-
-
 .pull-left-2[.footnote[[1] (Dowd et al. 2020; Rajgor et al. 2020; Goldstein and Lee 2020; Green et al. 2020; Harman et al. 2021; Smith 2021; Luo et al. 2021; Undurraga et al. 2021)] ]
+
+---
+
+## The BIG issue of the CFR = the denominator <sup>1</sup>:
+
+.pull-left-2[.content-box-blue[
+
+- age-structure of detected cases
+
+- age-structure of case-fatality rates
+ 
+]]
+
+$$CFR_i-CFR_j=\alpha+\delta   $$
+the $CFR$ as the sum of age-specific $CFRs$ weighted by the proportion of cases in a certain age group
+
+.pull-right-2[
+
+- the age-structure of detected cases explained >60% of cross-country variation
+- the age-structure of case-fatality rates within countries across time - nortality due to increasing age-specific case-fatality rates.
+]
+
+
+
+.pull-left-2[.footnote[[1] (Dudel C, Riffe T, Acosta E, van Raalte A, Strozza C, Myrskyla, M (2020))] ]
 
 ---
 class: 
@@ -213,4 +235,7 @@ di Lego, V., Sánchez-Romero, M., Prskawetz, A. (2022). The impact of COVID-19 v
 include_graphics("ArticlePage0.png")
 ```
 ]
+
+
+
 
