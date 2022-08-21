@@ -21,30 +21,9 @@ options(htmltools.preserve.raw = FALSE)
 library(knitr)
 ```
 
-
 class: middle
-      
-Fig. 1 Case Fatality Rate (CFR) and %Fully Vaccinated Trajectories
-      
-  <div class="container">
-  <img class="under" src="img/vax_change.gif"/> 
-        <img class="over" src="img/cfr_change.gif"/>  
-  </div>
-        
-.remark-slide-content3[Source: Our World in Data (Mathieu et al. 2021)] 
 
-
----
-
-class: center, middle
-
-```{r figvax, echo=F, fig.align='right', warning=FALSE, out.width="50%"}
-# knitr::include_graphics(here::here("img", "vaccine.png"))
-# include_graphics("vaccine.png")
-```
-
-# What drives the patterns in the CFR?
- ## Are vaccines not being effective in reducing deaths?
+Technically, not a rate, but a measure of risk - by epidemiologists called Case-Fatality Risk. The CFR can be defined as the probability that a case dies from any given infection.
 
 
 ---
@@ -104,6 +83,35 @@ the $CFR$ as the sum of age-specific $CFRs$ weighted by the proportion of cases 
 
 
 .pull-left-2[.footnote[[1] (Dudel C, Riffe T, Acosta E, van Raalte A, Strozza C, Myrskyla, M (2020))] ]
+
+---
+
+class: middle
+      
+Fig. 1 Case Fatality Rate (CFR) and %Fully Vaccinated Trajectories
+      
+  <div class="container">
+  <img class="under" src="img/vax_change.gif"/> 
+        <img class="over" src="img/cfr_change.gif"/>  
+  </div>
+        
+.remark-slide-content3[Source: Our World in Data (Mathieu et al. 2021)] 
+
+
+---
+
+class: center, middle
+
+```{r figvax, echo=F, fig.align='right', warning=FALSE, out.width="50%"}
+# knitr::include_graphics(here::here("img", "vaccine.png"))
+# include_graphics("vaccine.png")
+```
+
+# What drives the patterns in the CFR?
+ ## Are vaccines not being effective in reducing deaths?
+
+
+---
 
 ---
 class: 
